@@ -1,18 +1,18 @@
-# Attendance Device Integration with CMS Attendance
+# 'CMS Attendance' - Integration Middleware
 
-The goal of this CMS Attendance is to sync Bio-Metric Attendance data from databases to Contract Management System(CMS by BuildHr)
+The objective of this middleware is to sync attendance data from Bio-Metric device's database to Contract Management System (CMS by BuildHr)
 
 ## Introduction
 
-An attendance management tool is a positive strategy to magnify productivity in any organization. CMS Attendance offers attendance device integrations that aid in accurate attendance management.
+An attendance management tool is a positive strategy to magnify productivity in any organization. 'CMS Attendance' offers attendance device integrations that aid in accurate attendance management.
 
-You can integrate your attendance device with CMS Attendance by making use of APIs. In order to sync your device's attendance entries with your employee's attendance records in CMS, you need to have a common format between your device and your CMS Attendance account.
+You can integrate your attendance device with CMS Attendance by making use of APIs. In order to sync attendance entries of employees in CMS attendance, it is required to have certain pre-requisites captured in the bio-metric device's database.
 
-## Getting Started with Prerequisites
+## Getting Started with Pre-requisites
 
-The biometric device with CMS is through the configuration of a plugin using **Python and ODBC drivers**.
+Integration between Bio-metric device's database & CMS Attendance  is achieved by configuration of a middleware using **Python and ODBC drivers**.
 
-Integration can be done with any of these databases: **MS SQL Server, MS Access and MY SQL**.
+Using this middleware, CMS can be integrated with any of these databases: **MS SQL Server, MS Access and MY SQL**.
 
 > _**Note:** The **data** from the biometric **should be automatically downloaded into the database**._
 
@@ -36,30 +36,31 @@ _Select employeeID, eventTime, isCheckin, downloadDate from Attendance_
      - Click on _Open in Microsoft Store_
      - Click on _Install_ in Microsoft Store
    - Others
-     - Go to [Python Downloads](https://www.python.org/downloads/windows/) and download the latest stable release **Windows installer (64-bit)**
-     - Click the download file then choose **Recommended Installation** in Python installation window.
-     - After click **Finish** to complete Python installation
+     - Go to [Python Downloads](https://www.python.org/downloads/windows/) and download the latest stable release of **Windows installer (64-bit)**
+     - Click the downloaded file and choose **Recommended Installation** in Python installation window.
+     - Then, click **Finish** to complete Python installation
 
 > _**Note:** **Python** should be **v3.6 and above**_
 
 2. **Install Python Packages**
 
    - Open _cmd_ using `Windows search bar` or `⊞ + R`.
-   - `pip install pyodbc requests schedule python-dotenv` this command in **Command Prompt**
+   - Type `pip install pyodbc requests schedule python-dotenv`  command in **Command Prompt** and click **Enter**
 
 3. ODBC Driver
-   - Download ODBC driver using hyperlink on database. For [MS Access](https://www.microsoft.com/en-in/download/confirmation.aspx?id=13255), [MySQL](https://dev.mysql.com/downloads/file/?id=504545) and [MS SQL](https://go.microsoft.com/fwlink/?linkid=2156851)
-   - Click next on every pop-up and then click on Install
+   - Download ODBC driver using the following hyperlinks [MS Access](https://www.microsoft.com/en-in/download/confirmation.aspx?id=13255), [MySQL](https://dev.mysql.com/get/Downloads/Connector-ODBC/8.0/mysql-connector-odbc-8.0.25-winx64.msi) and [MS SQL](https://go.microsoft.com/fwlink/?linkid=2156851)
+   - Click the downloaded file.
+   - Click **Next** on every pop-up and then click on **Install**
 
 > _[Learn more](https://www.microsoft.com/en-in/download/details.aspx?id=13255) about MS Access ODBC Driver_
 
 4. CMS Attendance
-   - Download [CMS Attendance](https://github.com/BuildHR/BuildHr-CMS-Attendance) ZIP using **Code** green button.
+   - Download [CMS Attendance](https://github.com/BuildHR/BuildHr-CMS-Attendance) ZIP by clicking on the green color **Code** button in the top right corner of the page.
 
 ## Contributor
 
 - **[SS Subash](https://github.com/sssubash)** - _Developer and Maintainer_
 
-> _Raise issues on [Issues](https://github.com/BuildHR/BuildHr-CMS-Attendance/issues) of this repository_
+> _To raise any issue click on [Issues](https://github.com/BuildHR/BuildHr-CMS-Attendance/issues) tab of this repository._
 
-> _Raise Questions, Suggestions or Feedback on [Discussions](https://github.com/BuildHR/BuildHr-CMS-Attendance/discussions) of this repository_
+> _To raise Questions, Ideas or Feedback click on [Discussions](https://github.com/BuildHR/BuildHr-CMS-Attendance/discussions) tab of this repository._
