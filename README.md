@@ -30,15 +30,12 @@ _Select employeeID, eventTime, isCheckin, downloadDate from Attendance_
 ### Software installation
 
 1. **Python**
-   - From Microsoft Store
-     - Go to [Python in Store](https://www.microsoft.com/en-in/search?q=python) and choose the _first_ one
-     - Click on _Get_. Now open the browser dialog box with the message of Microsoft Store
-     - Click on _Open in Microsoft Store_
-     - Click on _Install_ in Microsoft Store
-   - Others
-     - Go to [Python Downloads](https://www.python.org/downloads/windows/) and download the latest stable release of **Windows installer (64-bit)**
-     - Click the downloaded file and choose **Recommended Installation** in Python installation window.
-     - Then, click **Finish** to complete Python installation
+   - Go to [Python Downloads](https://www.python.org/downloads/windows/) and download the latest stable release of **Windows installer (64-bit)**
+   - Click the downloaded file and choose **Recommended Installation** in Python installation window.
+   - Then, click **Finish** to complete Python installation
+   - Right click the **connect.pyw** file and click **opens with...**
+   - Then click **Look for another app in this PC**
+   - Go to the Python's `.exe` file and pick that then just click **OK** in the Opens with.. pop-up window.
 
 > _**Note:** **Python** should be **v3.6 and above**_
 
